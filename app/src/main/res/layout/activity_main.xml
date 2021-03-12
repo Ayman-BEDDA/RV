@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RV-Visiteur!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMatricule" />
+
+    <EditText
+        android:id="@+id/etMatricule"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mdp" />
+
+    <EditText
+        android:id="@+id/etMdp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/bSeConnecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bSeConnecter"
+        android:onClick="seConnecter"/>
+
+
+    <Button
+        android:id="@+id/bAnnuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bAnnuler"
+        android:onClick="annuler"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

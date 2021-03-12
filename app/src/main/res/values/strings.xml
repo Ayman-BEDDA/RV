@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RVV</string>
+
+    <string name="tvMatricule">Matricule:</string>
+
+    <string name="mdp">Mot de passe:</string>
+
+    <string name="bSeConnecter">Valider</string>
+
+    <string name="bAnnuler">Annuler</string>
+</resources>
