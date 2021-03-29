@@ -14,6 +14,10 @@ public class Visiteur {
         this.prenom=prenom;
     }
 
+    public Visiteur(String matricule,String mdp){
+        this.matricule=matricule;
+        this.mdp=mdp;}
+
     public Visiteur(){
 
     }
@@ -42,11 +46,22 @@ public class Visiteur {
         this.mdp=mdp;
     }
 
-    public void setNom(String Nom){
+    public void setNom(String nom){
         this.nom=nom;
     }
 
     public void setPrenom(String prenom){
         this.prenom=prenom;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Visiteur{" +
+                "matricule='" + matricule + '\'' +
+                ", mdp='" + mdp + '\'' +
+                ", nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                '}';
     }
 }

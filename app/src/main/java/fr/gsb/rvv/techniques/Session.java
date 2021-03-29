@@ -15,14 +15,21 @@ public class Session {
     }
 
     public static void ouvrir(Visiteur leVisiteur){
-        Session session=new Session();
+        session=new Session(leVisiteur);
     }
 
     public static void fermer(){
-        Session session=null;
+        session=null;
     }
 
     public static Session getSession(){
         return Session.session;
     }
+
+    public Visiteur getLeVisiteur() {
+        return leVisiteur;
+    }
+
+
+
 }
